@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:03.000
+Hi, I'm Thraa.
+
+00:00:03.000 --> 00:00:04.000
+I am 20 years old.
+
+00:00:05.000 --> 00:00:07.000
+I am a third-year Computer Science student at Galala University.

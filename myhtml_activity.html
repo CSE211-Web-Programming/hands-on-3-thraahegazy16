@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>thraa 1st page</title>
+  <style>
+    body {
+      background: pink;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+      line-height: 1.5;
+    }
+    img { max-width: 400px; height: auto; display:block; margin: 10px auto; }
+    video, audio { max-width: 90%; display:block; margin: 10px auto; }
+    figure { text-align: center; }
+  </style>
+</head>
+<body>
+
+  <h1 id="mainTitle">My HTML full page challenge</h1>
+
+  <p class="intro">This is my complete HTML page where I use headings, paragraphs, lists, an image, video, and audio.</p>
+
+  <h2>About Me</h2>
+  <p id="aboutMe">My name is Thraa Hegazy. I am a third-year Computer Science student at GU.</p>
+
+  <h2>My Hobbies</h2>
+  <ul id="hobbiesList" class="hobbies">
+    <li>Reading books</li>
+    <li>Playing volleyball</li>
+  </ul>
+
+  <h2>Steps I followed</h2>
+  <ol>
+    <li>Created an HTML file</li>
+    <li>Added text and lists</li>
+    <li>Added an image, video, and audio</li>
+  </ol>
+
+  <h2>My photo</h2>
+  <figure>
+    <a href="WhatsApp Image me.jpeg" target="_blank" rel="noopener">
+      <img src="WhatsApp Image me.jpeg" alt="My photo" id="myPhoto" />
+    </a>
+    <figcaption>Picture of Thraa Hegazy.</figcaption>
+  </figure>
+
+  <h2>My video</h2>
+  <video controls>
+    <source src="WhatsApp Video me.mp4" type="video/mp4" />
+    <track src="en.vtt" kind="subtitles" srclang="en" label="English" default />
+    Your browser does not support the video element.
+  </video>
+
+  <h2>My audio recording</h2>
+  <audio controls>
+    <source src="my audio.ogg" type="audio/ogg" />
+    Your browser does not support the audio element.
+  </audio>
+
+</body>
+</html>
